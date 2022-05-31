@@ -7,6 +7,6 @@ def fib(n):
 
 
 #print(fib(10))
-longitud=int(input("Ingrese la longitud para la serie Fibonacci:"))
+longitud=int(input("Ingrese la cantidad de datos que deseas obtener de la serie Fibonacci:"))
 for n in range(longitud):
    print(fib(n))
